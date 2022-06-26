@@ -1,0 +1,22 @@
+@media (min-width: 640px){
+    .main-explorer{
+        display: flex;
+    }
+    .main-explorer .wrap-forms{
+        width: 50%;
+    }
+    .main-explorer .cards {
+        width: 45%;
+        margin-left: 5%;
+    }
+}
+@media (min-width: 440px){
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards .card{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+    }
+}
